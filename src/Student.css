@@ -1,0 +1,88 @@
+body {
+    margin: 0; /* Removes default margin from the entire page */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Ensures consistent box model */
+}
+.header {
+    background-color: rgb(27, 116, 43); /* Green background */
+    height: 90px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    position: fixed; /* Keeps the header at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the header is above other elements */
+}
+
+.header h1 {
+    color: white; /* White text */
+    font-size: 40px; /* Adjust size */
+    font-family: Arial, sans-serif; /* Clean font */
+}
+
+.body {
+    background-color: rgb(249, 253, 250); /* Light green background */
+    height: 800px; /* Fixed height for the body section */
+    width: 100%; /* Full width */
+    margin: 0; /* Corrected margin */
+    display: flex; /* Enables flexbox for centering */
+    position: relative; /* Keeps the body section in its normal flow */
+}
+
+
+    body {
+        margin: 0; /* Removes default margin from the entire page */
+        padding: 0; /* Removes default padding */
+        box-sizing: border-box; /* Ensures consistent box model */
+    }
+    .header {
+        background-color: rgb(27, 116, 43); /* Green background */
+        height: 90px;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center; /* Centers content vertically */
+        justify-content: center; /* Centers content horizontally */
+        position: fixed; /* Keeps the header at the top */
+        top: 0;
+        left: 0;
+        z-index: 1000; /* Ensures the header is above other elements */
+    }
+    
+    .header h1 {
+        color: white; /* White text */
+        font-size: 40px; /* Adjust size */
+        font-family: Arial, sans-serif; /* Clean font */
+    }
+    .cardalign{
+        background-color: rgb(249, 253, 250); 
+        height: 500px; /* Fixed height for the body section */
+        width: 100%; /* Full width */
+        margin: 0; /* Corrected margin */
+        display: flex; /* Flexbox for row layout */
+        justify-content: space-evenly; /* Spacing between divs */
+        align-items: center; /* Aligns divs vertically in the center */
+    }
+    
+    .body {
+        background-color: rgb(249, 253, 250); /* Light green background */
+    }
+    
+    .card{
+        background-color: rgb(209, 212, 195); /* Green for individual boxes */
+        height: 150px; /* Height of each box */
+        width: 20%; /* Each box takes 30% of the row */
+        color: white;
+        display: flex;
+        justify-content: center; /* Center text horizontally */
+        align-items: center; /* Center text vertically */
+        font-family: Arial, sans-serif;
+        border-radius: 5px; /* Optional rounded corners */
+    }
+    
+    
+
+
